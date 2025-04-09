@@ -16,3 +16,6 @@ What is WIP:
 
 * Switching GPUs
 
+How to run:
+
+> Compile with VS. If necessary, add the .hlsl files in the same directory as the exe file (if the executable is run from another environment other than VS).
