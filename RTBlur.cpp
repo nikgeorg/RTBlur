@@ -1,5 +1,4 @@
-// Basic layout for a DirectX 11 + ImGui application with Gaussian blur capability
-// This is the skeleton; you’ll need to fill in full image loading, shader compilation, etc.
+
 
 #include <Windows.h>
 #include <d3d11.h>
@@ -342,7 +341,7 @@ void CleanupD3D() {
 void ReinitDeviceAndPipeline(HWND hWnd)
 {
     ImGui_ImplDX11_Shutdown();
-    // If there’s an existing device, release everything
+    // If thereâ€™s an existing device, release everything
     CleanupD3D();
 
     InitD3D(hWnd);
